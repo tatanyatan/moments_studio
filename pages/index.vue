@@ -453,7 +453,7 @@ export default {
     }
 
     .right-side {
-        width: 110%;
+        width: 100%;
         padding-top: 0rem;
     }
 
