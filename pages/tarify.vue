@@ -111,7 +111,7 @@ export default {
       <div class="tariffs-section">
         <h2 class="zagolovok">Тарифы</h2>
         <div class="tariffs-grid">
-          <div class="tariff-card" v-for="(tariff, index) in tariffsData" :key="index">
+          <div v-for="(tariff, index) in tariffsData" :key="index" class="tariff-card">
             <div class="tariff-header">
               {{ tariff.title }}
             </div>
@@ -130,7 +130,7 @@ export default {
     </div>
 
     <!-- Модальное окно для записи -->
-    <div class="modal-overlay" v-if="isBookingModalVisible" @click.self="closeBookingModal">
+    <div v-if="isBookingModalVisible" class="modal-overlay" @click.self="closeBookingModal">
       <div class="modal">
         <div class="modal-header">
           <h2 class="zagolovokk">Запись на съемку</h2>

@@ -150,7 +150,7 @@ export default {
     </div>
 
     <!-- Модальное окно -->
-    <div class="modal-overlay" v-if="isModalVisible" @click.self="closeModal">
+    <div v-if="isModalVisible" class="modal-overlay" @click.self="closeModal">
       <div class="modal">
         <div class="modal-header">
           <h2 class="zagolovokk">{{ getPhotographerName() }}</h2>
@@ -173,7 +173,7 @@ export default {
     </div>
 
     <!-- Модальное окно для записи -->
-    <div class="modal-overlay" v-if="isBookingModalVisible" @click.self="closeBookingModal">
+    <div v-if="isBookingModalVisible" class="modal-overlay" @click.self="closeBookingModal">
       <div class="modal">
         <div class="modal-header">
           <h2 class="zagolovokk">Запись на съемку</h2>
@@ -188,7 +188,7 @@ export default {
     </div>
 
     <!-- Модальное окно с увеличенным изображением -->
-    <div class="image-modal-overlay" v-if="isImageModalVisible" @click.self="closeImageModal">
+    <div v-if="isImageModalVisible" class="image-modal-overlay" @click.self="closeImageModal">
       <div class="image-modal">
         <img :src="selectedPhoto ? selectedPhoto.src : ''" :alt="selectedPhoto ? `Portfolio Image ${selectedPhoto.index}` : ''">
         <button class="close-button" @click="closeImageModal">X</button>

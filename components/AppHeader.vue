@@ -13,7 +13,7 @@
       <div class="shapka">
         <div class="logo">
           <a href="/">
-            <img src="/public/foto/baza/logo1.webp" alt="Логотип сайта" />
+            <img src="/public/foto/baza/logo1.webp" alt="Логотип сайта" >
           </a>
         </div>
   
@@ -29,10 +29,10 @@
   
         <div class="buttons">
           <a href="https://vk.com" target="_blank">
-            <img src="/public/foto/baza/vk.webp" alt="Кнопка ВК" />
+            <img src="/public/foto/baza/vk.webp" alt="Кнопка ВК" >
           </a>
           <a href="https://t.me/telegram" target="_blank">
-            <img src="/public/foto/baza/tg.webp" alt="Кнопка ТГ" />
+            <img src="/public/foto/baza/tg.webp" alt="Кнопка ТГ" >
           </a>
         </div>
   
@@ -126,6 +126,7 @@
       padding: 1rem;
       box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
       z-index: 10;
+      max-width: 21rem;
     }
 
     .menu ul {
@@ -139,6 +140,7 @@
     .hamburger-menu {
       display: flex;
       margin-left: auto; /* Прижимаем к правой стороне */
+ 
     }
 
     .buttons {

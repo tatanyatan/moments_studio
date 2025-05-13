@@ -121,7 +121,7 @@ export default {
       <h2 class="zagolovok">Наши залы</h2>
       <div class="halls-page">
         <div class="halls-grid">
-          <div class="hall-card" v-for="(hall, index) in hallsData" :key="index">
+         <div v-for="(hall, index) in hallsData" :key="index" class="hall-card">
             <div class="hall-image">
               <img :src="hall.image" :alt="hall.name" @click="openModal(hall.id)">
             </div>
@@ -133,7 +133,7 @@ export default {
         </div>
 
         <!-- Модальное окно с информацией о зале -->
-        <div class="modal-overlay" v-if="isModalVisible" @click.self="closeModal">
+        <div v-if="isModalVisible" class="modal-overlay" @click.self="closeModal">
           <div class="modal">
             <div class="modal-header">
               <h2 class="zagolovok">{{ getHallName() }}</h2>
@@ -160,7 +160,7 @@ export default {
         </div>
 
         <!-- Модальное окно для просмотра изображений -->
-        <div class="image-modal-overlay" v-if="isImageModalVisible" @click.self="closeImageModal">
+       <div v-if="isImageModalVisible" class="image-modal-overlay" @click.self="closeImageModal">
           <div class="image-modal">
             <img :src="selectedImage" :alt="`Image`">
             <button class="close-button" @click="closeImageModal">X</button>

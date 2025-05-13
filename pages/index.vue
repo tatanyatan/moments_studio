@@ -71,9 +71,9 @@ export default {
                       :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
                   >
                       <div
-                          class="carousel-item"
-                          v-for="(group, groupIndex) in groupedImages"
-                          :key="groupIndex"
+                        v-for="(group, groupIndex) in groupedImages"
+                        :key="groupIndex"
+                        class="carousel-item"
                       >
                           <div class="image-group">
                               <img
@@ -87,14 +87,14 @@ export default {
                                       (groupIndex + 1)
                                   "
                                   class="carousel-image"
-                              />
+                              >
                           </div>
                       </div>
                   </div>
               </div>
               <div class="carousel-controls">
-                  <button @click="prevSlide" aria-label="Previous Slide">&lt;</button>
-                  <button @click="nextSlide" aria-label="Next Slide">&gt;</button>
+                <button aria-label="Previous Slide" @click="prevSlide">&lt;</button>
+                <button aria-label="Next Slide" @click="nextSlide">&gt;</button>
               </div>
           </div>
 
@@ -453,7 +453,7 @@ export default {
     }
 
     .right-side {
-        width: 120%;
+        width: 110%;
         padding-top: 0rem;
     }
 
