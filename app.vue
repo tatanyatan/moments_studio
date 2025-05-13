@@ -17,7 +17,7 @@ useHead({
     { hid: 'og:title', property: 'og:title', content: "Moment's studio" },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     { hid: 'og:url', property: 'og:url', content: 'https://user22.teststand.ru' },
-    { hid: 'og:image', property: 'og:image', content: 'public/foto/baza/opengr.webp' },
+    { hid: 'og:image', property: 'og:image', content: './public/foto/baza/opengr.webp' },
     { hid: 'og:description', property: 'og:description', content: 'Фотостудия в самом сердце Санкт-Петербурга' },
   ],
   script: [
@@ -29,8 +29,8 @@ useHead({
         "@type": "LocalBusiness",
         "name": "Moment's studio",
         "description": "Фотостудия в самом сердце Санкт-Петербурга",
-        "url": "https://user22.teststand.ru",
-        "image": "https://user22.teststand.ru/photo/o1.webp",
+        "url": "https://moments-studio.vercel.app",
+        "image": "./public/foto/baza/opengr.webp",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Адрес студии",
