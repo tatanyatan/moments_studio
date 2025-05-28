@@ -28,10 +28,10 @@
         </nav>
   
         <div class="buttons">
-          <a href="https://vk.com" target="_blank">
+          <a href="https://vk.com/moments_studio_spb" target="_blank">
             <img src="/public/foto/baza/vk.webp" alt="Кнопка ВК" >
           </a>
-          <a href="https://t.me/telegram" target="_blank">
+          <a href="https://t.me/moments_studio_spb" target="_blank">
             <img src="/public/foto/baza/tg.webp" alt="Кнопка ТГ" >
           </a>
         </div>

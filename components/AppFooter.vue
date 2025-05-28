@@ -27,8 +27,8 @@
             <div class="footer__contacts">
                 <h4 class="footer__contacts-title"><NuxtLink to="/kontakti" class="footer__nav-link footer__nav-link--highlighted">Контакты</NuxtLink></h4>
                 <ul class="footer__contacts-list">
-                <li class="footer__contacts-item"><a href="https://vk.com" class="footer__contacts-link"  target="_blank">Группа ВК</a></li>
-                <li class="footer__contacts-item"><a href="https://t.me/telegram" class="footer__contacts-link"  target="_blank">Telegram</a></li>
+                <li class="footer__contacts-item"><a href="https://vk.com/moments_studio_spb" class="footer__contacts-link"  target="_blank">Группа ВК</a></li>
+                <li class="footer__contacts-item"><a href="https://t.me/moments_studio_spb" class="footer__contacts-link"  target="_blank">Telegram</a></li>
                 </ul>
             </div>
         </div>
