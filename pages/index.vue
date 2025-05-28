@@ -163,7 +163,7 @@ export default {
                 <p class="reviews__item-text">"Снимали лавстори и в восторге! Прекрасный интерьер, опытный фотограф помог воплотить все задуманное, фотографии получились волшебными, спасибо!"</p>
               </div>
             </div>
-            <a href="https://yandex.ru/maps/org/chromastudio/89840981471/reviews" class="reviews__button"  target="_blank">Оставить отзыв на Яндекс Картах</a>
+            <a href="https://vk.com/topic-230648115_53136013" class="reviews__button"  target="_blank">Оставить отзыв в сообществе ВК</a>
           </div>
                     
         </div>

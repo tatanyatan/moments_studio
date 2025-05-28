@@ -79,9 +79,9 @@ export default {
         }
       ],
       isBookingModalVisible: false,
-      phoneNumber: 'tel:+79991234567', // Замените на свой номер телефона
-      vkLink: 'https://vk.com', // Замените на ссылку на вашу группу VK
-      telegramLink: 'https://t.me', // Замените на ссылку на ваш Telegram канал
+      phoneNumber: 'tel:+70000000000', // Замените на свой номер телефона
+      vkLink: 'https://vk.com/moments_studio_spb', // Замените на ссылку на вашу группу VK
+      telegramLink: 'https://t.me/moments_studio_spb', // Замените на ссылку на ваш Telegram канал
     };
   },
   methods: {

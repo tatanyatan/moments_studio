@@ -57,7 +57,7 @@ export default {
             <div class="contact-item">
               <span class="contact-title">Telegram:</span>
               <span class="contact-info">
-                <a href="https://t.me/Moments_studio_spb" target="_blank">https://t.me/Moments_studio_spb</a>
+                <a href="https://t.me/moments_studio_spb" target="_blank">https://t.me/moments_studio_spb</a>
               </span>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default {
     <div class="container">
       <h2 class="zagolovok">FAQ (Часто задаваемые вопросы)</h2>
       <div class="faq-section">
-        <div class="faq-item" v-for="(item, index) in faqData" :key="index">
+        <div v-for="(item, index) in faqData" :key="index" class="faq-item">
           <div class="faq-question">{{ item.question }}</div>
           <div class="faq-answer">{{ item.answer }}</div>
         </div>

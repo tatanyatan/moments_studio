@@ -18,7 +18,7 @@ export default {
             '/foto/portfolio/bb7.webp',
             '/foto/portfolio/bb8.webp',
           ],
-          telegramLink: 'https://t.me/telegram',
+          telegramLink: 'https://t.me/moments_studio_spb',
         },
         ilya: {
           name: 'Смирнов Илья',
@@ -33,7 +33,7 @@ export default {
             '/foto/portfolio/pp7.webp',
             '/foto/portfolio/pp8.webp',
           ],
-          telegramLink: 'https://t.me/telegram',
+          telegramLink: 'https://t.me/moments_studio_spb',
         },
         ksenia: {
           name: 'Тушенцова Ксения',
@@ -48,15 +48,15 @@ export default {
             '/foto/portfolio/dd1.webp',
             '/foto/portfolio/dd8.webp',
           ],
-          telegramLink: 'https://t.me/telegram',
+          telegramLink: 'https://t.me/moments_studio_spb',
         },
       },
       selectedPhoto: null,
       isImageModalVisible: false,
       isBookingModalVisible: false, // Добавляем свойство видимости модального окна записи
-      phoneNumber: 'tel:+79991234567', // Замените на свой номер
-      vkLink: 'https://vk.com', // Замените на ссылку на вашу группу VK
-      telegramLink: 'https://t.me', // Замените на ссылку на ваш Telegram канал
+      phoneNumber: 'tel:+70000000000', // Замените на свой номер
+      vkLink: 'https://vk.com/moments_studio_spb', // Замените на ссылку на вашу группу VK
+      telegramLink: 'https://t.me/moments_studio_spb', // Замените на ссылку на ваш Telegram канал
     };
   },
   methods: {
