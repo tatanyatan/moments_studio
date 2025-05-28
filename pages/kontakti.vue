@@ -43,7 +43,7 @@ export default {
             <div class="contact-item">
               <span class="contact-title">Основной телефон студии:</span>
               <span class="contact-info">
-                <a :href="'tel:+79081001000'">+7 (908) 100-10-00</a>
+                <a :href="'tel:+79081001000'">+7 (000) 000-00-00</a>
               </span>
             </div>
 
