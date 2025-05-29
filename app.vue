@@ -17,7 +17,7 @@ useHead({
     { hid: 'og:title', property: 'og:title', content: "Moment's studio" },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     { hid: 'og:url', property: 'og:url', content: 'https://moments-studio.vercel.app' },
-    { hid: 'og:image', property: 'og:image', content: '/foto/baza/opengr.webp' },
+    { hid: 'og:image', property: 'og:image', content: 'https://moments-studio.vercel.app/opengr.webp' },
     { hid: 'og:description', property: 'og:description', content: 'Фотостудия в самом сердце Санкт-Петербурга' },
   ],
   script: [
@@ -30,7 +30,7 @@ useHead({
         "name": "Moment's studio",
         "description": "Фотостудия в самом сердце Санкт-Петербурга",
         "url": "https://moments-studio.vercel.app",
-        "image": "https://moments-studio.vercel.app/foto/baza/opengr.webp",
+        "image": "./public/opengr.webp",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Санкт-Петербург",
@@ -38,8 +38,8 @@ useHead({
         },
         "telephone": "+7 (XXX) XXX-XX-XX",
         "sameAs": [
-          "https://vk.com/moments_studio",
-          "https://t.me/moments_studio"
+          "https://vk.com/moments_studio_spb",
+          "https://t.me/moments_studio_spb"
         ]
       }
     }
