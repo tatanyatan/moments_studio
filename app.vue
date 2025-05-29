@@ -17,7 +17,7 @@ useHead({
     { hid: 'og:title', property: 'og:title', content: "Moment's studio" },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     { hid: 'og:url', property: 'og:url', content: 'https://moments-studio.vercel.app' },
-    { hid: 'og:image', property: 'og:image', content: 'https://moments-studio.vercel.app/foto/baza/opengr.webp' },
+    { hid: 'og:image', property: 'og:image', content: '/foto/baza/opengr.webp' },
     { hid: 'og:description', property: 'og:description', content: 'Фотостудия в самом сердце Санкт-Петербурга' },
   ],
   script: [
