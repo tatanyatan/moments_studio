@@ -30,7 +30,7 @@ useHead({
         "name": "Moment's studio",
         "description": "Фотостудия в самом сердце Санкт-Петербурга",
         "url": "https://moments-studio.vercel.app",
-        "image": "./public/foto/baza/opengr.webp",
+        "image": "/foto/baza/opengr.webp",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Адрес студии",
