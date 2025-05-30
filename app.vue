@@ -6,6 +6,38 @@
   </div>
 </template>
 
+<script setup>
+useHead({
+  title: 'Moments Studio',
+  meta: [
+    {
+      name: 'description',
+      content: 'Фотостудия в самом сердце Санкт-Петербурга. Профессиональная фотосъемка в Moments Studio.  Семейные фотосессии, свадебная фотосъемка, аренда залов.',
+    },
+    {
+      property: 'og:title',
+      content: 'Moments Studio',
+    },
+    {
+      property: 'og:description',
+      content: 'Фотостудия в самом сердце Санкт-Петербурга. Профессиональная фотосъемка в Moments Studio. Семейные фотосессии, свадебная фотосъемка, аренда залов.',
+    },
+    {
+      property: 'og:image',
+      content: 'https://moments-studio.vercel.app/foto/baza/opengr.webp', // Ссылка на изображение, которое будет отображаться при шаринге
+    },
+    {
+      property: 'og:url',
+      content: 'https://moments-studio.vercel.app/', // URL главной страницы
+    },
+    {
+      property: 'og:type',
+      content: 'website', // Тип контента (website, article, и т.д.)
+    },
+  ],
+});
+</script>
+
 <style>
 /* Глобальные стили */
 @font-face {
