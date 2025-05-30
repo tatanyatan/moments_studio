@@ -1,1 +1,16 @@
+Sitemap: https://moments-studio.vercel.app/sitemap.xml
 
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Allow: /
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.webp
+
+Crawl-delay: 1

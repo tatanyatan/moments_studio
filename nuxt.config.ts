@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         { key: 'og:title', property: 'og:title', content: "Moment's studio" }, // Использовать key вместо hid
         { key: 'og:type', property: 'og:type', content: 'website' }, // Использовать key вместо hid
         { key: 'og:url', property: 'og:url', content: 'https://moments-studio.vercel.app/' }, // Замените на ваш URL, использовать key вместо hid
-        { key: 'og:image', property: 'og:image', content: '/opengr.webp' }, // Относительный путь, использовать key вместо hid
+        { key: 'og:image', property: 'og:image', content: 'foto/baza/opengr.webp' }, // Относительный путь, использовать key вместо hid
         { key: 'og:description', property: 'og:description', content: 'Фотостудия в самом сердце Санкт-Петербурга' }, // Использовать key вместо hid
       ],
     },
