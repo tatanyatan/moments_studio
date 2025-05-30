@@ -24,7 +24,7 @@ useHead({
     },
     {
       property: 'og:image',
-      content: 'https://moments-studio.vercel.app/foto/baza/opengr.webp', // Ссылка на изображение, которое будет отображаться при шаринге
+      content: '/foto/baza/opengr.webp', // Ссылка на изображение, которое будет отображаться при шаринге
     },
     {
       property: 'og:url',
