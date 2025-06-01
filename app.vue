@@ -48,7 +48,7 @@ useHead({
 }
 
 .container {
-  width: 100%;
+
   max-width: 1100px; /* Непосредственное значение */
   margin-left: auto;
   margin-right: auto;

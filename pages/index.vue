@@ -435,7 +435,7 @@ export default {
     }
 
     .left-side {
-        width: 100%;
+        width: 20rem;
         padding: 1.5rem;
         text-align: center;
     }
@@ -459,7 +459,7 @@ export default {
 
     .container_2 {
         height: auto;
-        width: 23rem;
+        width: 25rem;
     }
 
     .carousel-wrapper {
@@ -514,7 +514,7 @@ export default {
 
     .reviews__button {
         padding: 10px 20px;
-        width: 20.5rem;
+        width: 19rem;
     }
 }
 

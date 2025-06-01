@@ -42,7 +42,7 @@
   color: #fff;
   padding: 20px;
   margin-top: 4rem;
-  width: 100%;
+
 }
 
 .container {
@@ -150,7 +150,7 @@
 @media (max-width: 576px) {
 
   .footer{
-    width: 23rem;
+    width: 24rem;
   }
 
   .container {
@@ -190,7 +190,7 @@
 
 @media (min-width: 375px) and (max-width: 425px) {
   .footer{
-  width: 22rem;
+  width: 25rem;
   }
 }
 
@@ -200,11 +200,4 @@
   }
 }
 
-/* Для телефонов (от 576px до 768px) */
-@media (min-width: 576px) and (max-width: 1024px) {
-
-  .container{
-    padding: 0;
-  }
-}
 </style>
